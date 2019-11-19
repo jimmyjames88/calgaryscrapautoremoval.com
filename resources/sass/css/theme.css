@@ -436,7 +436,7 @@ a:hover {
 }
 
 #hero {
-    background-image: url(../img/backgrounds/calgary-junk-car-removal-splash.jpg);
+    background-image: url('/assets/img/backgrounds/calgary-junk-car-removal-splash.jpg');
     background-size: cover;
     background-position: 50% 80%
 }
