@@ -539,50 +539,50 @@
         });
     }
 
-    function lightbox() {
-        $('.lightbox').magnificPopup({
-            delegate: 'a',
-            type: 'image',
-            gallery:{
-                enabled:true,
-                arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"><img src="img/assets/slider-left-thin-arrow.png"></button>',
-            },
-            mainClass: 'mfp-zoom-in',
-            removalDelay: 500, //delay removal to allow out-animation
-            callbacks: {
-                beforeOpen: function() {
-                    this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
-                }
-            },
-            closeMarkup: '<button title="%title%" type="button" class="mfp-close"></button>',
-            midClick: true
-        });
-    }
+    // function lightbox() {
+    //     $('.lightbox').magnificPopup({
+    //         delegate: 'a',
+    //         type: 'image',
+    //         gallery:{
+    //             enabled:true,
+    //             arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"><img src="img/assets/slider-left-thin-arrow.png"></button>',
+    //         },
+    //         mainClass: 'mfp-zoom-in',
+    //         removalDelay: 500, //delay removal to allow out-animation
+    //         callbacks: {
+    //             beforeOpen: function() {
+    //                 this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+    //             }
+    //         },
+    //         closeMarkup: '<button title="%title%" type="button" class="mfp-close"></button>',
+    //         midClick: true
+    //     });
+    // }
 
     $(document).ready(function () {
         $.when(heroContentSlider()).then(heroContentSliderFade());
-        heroSliderOwl();
-        progressBars();
-        progressCircles();
-        teamSlider();
-        countUp();
-        vossenIframes();
+        //heroSliderOwl();
+        //progressBars();
+        //progressCircles();
+        //teamSlider();
+        //countUp();
+        //vossenIframes();
         quoteSlider();
-        parallaxVossen();
-        vossenPortfolio();
+        //parallaxVossen();
+        //vossenPortfolio();
         testimonialSlider();
         clientsSlider();
         contactForm();
-        subscribeForm();
+        //subscribeForm();
         vosMap();
         sliderOwl();
         vossenHeader();
         bootstrapTools();
-        twitterFeedSlider();
-        twitterFeedList();
-        countdown();
-        vossenBlogGrid();
-        lightbox();
+        //twitterFeedSlider();
+        //twitterFeedList();
+        //countdown();
+        //vossenBlogGrid();
+        //lightbox();
     });
 
     $(window).load(function () {

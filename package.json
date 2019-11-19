@@ -1,0 +1,32 @@
+{
+  "name": "calgaryscrapautoremoval.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "gulp-connect-php7": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyjames88/calgaryscrapautoremoval.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmyjames88/calgaryscrapautoremoval/issues"
+  },
+  "homepage": "https://github.com/jimmyjames88/calgaryscrapautoremoval#readme"
+}
