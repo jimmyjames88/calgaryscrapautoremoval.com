@@ -1,4 +1,11 @@
 User-Agent: *
-Disallow: 
+Disallow: /lib/
+Disallow: /php/
+Disallow: /resources/
+Disallow: /assets/css/
+Disallow: /assets/fonts/
+Disallow: /assets/js/
+Disallow: /node_modules/
+Disallow: /.git/
 
-Sitemap: http://calgaryscrapautoremoval.com/sitemap.xml
+Sitemap: https://calgaryscrapautoremoval.com/sitemap.xml
