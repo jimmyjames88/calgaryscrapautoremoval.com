@@ -29,6 +29,10 @@ gulp.task('watch', ['inlinesource'], function(){
 		['./resources/sass/*'],
 		['sass']
 	);
+	gulp.watch(
+		['./resources/index.html'],
+		['inlinesource']
+	);
 });
 
 gulp.task('sass', function () {
