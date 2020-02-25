@@ -66,6 +66,10 @@ h1.title strong {
 	font-size: 6rem;
 }
 
+.bbb-logo {
+	width: 150px;
+}
+
 @media screen and (max-width:1023px) {
     nav.navbar {
         height: 54px
