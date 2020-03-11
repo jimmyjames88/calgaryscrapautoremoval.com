@@ -66,7 +66,6 @@
                         });
                         $('#submit').removeAttr('disabled');
                         if (data.status.match('success') !== null) {
-							goog_report_conversion ();
                             $('#contactform').slideUp(850, 'easeInOutExpo');
                         }
                     });
